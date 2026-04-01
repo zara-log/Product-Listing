@@ -1,2 +1,3 @@
 # Product-Listing
 A clean and responsive product listing UI with a modern layout, hover effects, and a minimal design using HTML and CSS.
+I built this product listing UI as part of my journey into frontend development using HTML and CSS. The goal was to practice layout structuring and create something that feels like a real-world design rather than just a basic project. I focused on keeping the design clean and minimal, inspired by fashion-style interfaces, and worked on arranging products using CSS Grid along with simple hover effects to make the UI feel more interactive. I also added a basic navbar with a cart icon to give it a more complete look.
