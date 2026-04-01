@@ -1,0 +1,73 @@
+body {
+  font-family: "Rubik", sans-serif;
+  padding: 20px;
+  background: whitesmoke;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.nav-icons {
+  font-size: 24px;
+  color: black;
+}
+
+.nav-icons:hover {
+  color: gray;
+  transform: scale(1.03);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 2px 5px rgba(0, 0, 0, 0.2);
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.card p {
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+button {
+  padding: 10px;
+
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+  color: black;
+}
